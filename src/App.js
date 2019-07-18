@@ -1,12 +1,12 @@
 import React,{Component} from 'react';
 import './App.css';
 import Gallery from './components/gallery';
-import Fabrica from './components/fabrika/Fabrica';
+import Fabrika from './components/fabrika/Fabrika';
 
 class App extends Component {
   render(){
   return (
-  <Fabrica/>
+  <Fabrika/>
   );
 }
 }
