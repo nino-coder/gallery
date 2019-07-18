@@ -1,0 +1,31 @@
+.items button{
+    width: 20%;
+    height: 28%;
+    box-shadow: 0 6px 6px -1px rgba(10, 22, 70, 0.1), 0 0 1px rgba(10, 22, 70, 0.06);
+    background-color: #ffffff;
+    border-radius: 55%;
+    border-color: #fff;
+    margin-left: 3%;
+}
+.icon{
+    width: 40%;
+    height: 40%;
+    
+}
+.items{
+    width: 80%;
+    height: 100%;
+    box-shadow: 0 16px 16px -1px rgba(10, 22, 70, 0.1), 0 0 1px rgba(10, 22, 70, 0.06);
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+.photo{
+    width: 100%;
+    height: 70%;
+    border-top: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}

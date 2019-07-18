@@ -1,0 +1,10 @@
+.gallery-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    grid-column-gap: 30px;
+    padding: 10px;
+   
+    margin-left: 3%;
+    width: 100%;
+}
