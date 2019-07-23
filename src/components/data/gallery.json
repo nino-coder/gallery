@@ -1,0 +1,48 @@
+[
+    {
+        "name": "FABRIKA",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "avatar": "http://agenda.ge/files/news/032/fabrika-3x-event-0.jpg",
+        "logo": "https://hostelfabrika.com/wp-content/uploads/2018/04/Fabrika-Hostel-logo-png.png",
+        "images": [
+            "https://fabrikatbilisi.com/wp-content/uploads/2017/03/Home-main-background-Courtyard-night-v3-tinified-1.jpg",
+            "http://agenda.ge/files/news/050/tsinandali-recipients-16-0.jpg",
+            "https://images.adsttc.com/media/images/5a7a/9d09/f197/cc81/4500/01cc/large_jpg/_A2A9400.jpg?1517985022",
+            "https://georgiastartshere.com/wp-content/uploads/2016/08/fabrika-3.jpg"
+        ]
+    },
+    {
+        "name": "REDISON",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English",
+        "avatar": "https://s-ec.bstatic.com/images/hotel/max1280x900/130/130492938.jpg",
+        "logo": "https://www.radissonhotelgroup.com/uploads/Brand%20Resources/Radisson/RADISSON_RGB_LOGO.jpg",
+        "images": [
+            "http://profkurort.ge/images/6526641ebe2950f7.jpg",
+            "http://www.concordtravel.ge/_concordtravel/Image/Hotels%20Page/Tbilisi/radison/big/01.jpg"
+        ]
+    },
+    {
+        "name": "SHERATON",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "avatar": "https://t-ec.bstatic.com/images/hotel/max1024x768/178/178053220.jpg",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Sheraton_Hotels.svg/1200px-Sheraton_Hotels.svg.png",
+        "images": [
+            "https://foto.hrsstatic.com/fotos/0/3/545/350/80/000000/http%3A%2F%2Ffoto-origin.hrsstatic.com%2Ffoto%2F8%2F7%2F1%2F2%2F871287%2F871287_a_17377610.jpg/vGA05a1spn4l4qH%2FjdQJNg%3D%3D/1024,768/6/Sheraton_Grand_Conakry-Conakry-Aussenansicht-4-871287.jpg",
+            "https://z.cdrst.com/foto/hotel-sf/2737/granderesp/hotel-sheraton-old-san-juan-exterior-374c880.jpg",
+            "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/5187599/14537465.jpg"
+        ]
+    },
+    {
+        "name": "BILTMORE",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking for it",
+        "avatar": "https://t-ec.bstatic.com/images/hotel/max1024x768/765/76593799.jpg",
+        "logo": "http://awards-tourism.com/wp-content/uploads/2015/05/Biltmore-Property-logo-P8003-Final.jpg",
+        "images": [
+            "https://media-cdn.tripadvisor.com/media/photo-s/0d/b1/4a/e0/amphitheater.jpg",
+            "https://www.georgianjournal.ge/pictures/image2/f84386d7428eb36a829d26109b27a102.jpg",
+            "https://q-xx.bstatic.com/xdata/images/hotel/max500/82734813.jpg?k=b0b906983293bf9844dec578ca7847c18494fbd87a2cc3ac6a945485793a96b6&o=",
+            "https://media-cdn.tripadvisor.com/media/photo-s/0d/b1/4b/06/meeting-room-4.jpg",
+            "https://d3hfxk7rwdcpol.cloudfront.net/CSN/2fef3eb0-7d85-4b2c-b385-d70a725135cc/images/008154f3c8604c23a2a72921676da75c_LARGE.jpg"
+        ]
+    }
+]

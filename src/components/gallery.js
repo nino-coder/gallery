@@ -3,7 +3,7 @@ import Sidebar from './Sidebar';
 import GalleryItems from './GalleryItems';
 import GalleryHeader from './GalleryHeader';
 import './gallery.css';
-
+import GalleryData from './data/gallery.json'
 class Gallery extends Component{
     render(){
 
@@ -13,18 +13,18 @@ class Gallery extends Component{
             <div className="gallery-elements">
                <GalleryHeader/>
                 <div className="gallery-boxes-first">
-                    <GalleryItems/>
-                    <GalleryItems/>
-                    <GalleryItems/>
-                </div>
-                <div className="gallery-boxes-second">
-                    <GalleryItems/>
-                    <GalleryItems/>
-                    <GalleryItems/>
-                </div>             
+                {GalleryData.map(prop => (
+                    <GalleryItems
+                    avatar={prop.avatar}
+                    name={prop.name}
+                    description={prop.description}
+                    />  
+                ))}
+                 </div>
+                     
         </div>
     </div>
         );
-    }
+    }  
 }
 export default Gallery;

@@ -1,0 +1,33 @@
+.bell{
+    width: 19px;
+    height: 21px;
+    border: 1px solid #6d7381;
+    margin-top: 1.5%;
+    margin-right: 3%;
+    margin-top: 2.5%;
+    border: 0;
+}
+.header-profile ul li{
+    list-style: none;
+    margin-top: 30%;
+    margin-left: -100%;
+}
+.profile-photo{
+    width: 36px;
+    height: 36px;
+    margin-top: 2%;
+}
+.header-profile{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -1%;
+}
+.header-profile p{
+    margin-top: 3%;
+}
+.header-profile p select{
+    border:0;
+    border-color: #fff;
+    background-color: #d8d8d8;
+   
+}

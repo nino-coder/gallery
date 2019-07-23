@@ -1,0 +1,32 @@
+.main-gallery{
+    display:grid;
+    grid-template-rows:1fr 1fr 5fr;
+
+}
+.shapeimg{
+    width: 13px;
+    height: 25px;
+    display:flex;
+    justify-content:flex-start;
+    align-self:flex-start;
+}
+.fabrikaimg{
+    display:flex;
+    justify-content:flex-start;
+    align-self:flex-start;
+}
+.header-bottom
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+.galley-image{
+    display: grid;
+    justify-content: center;
+
+}
+.gallery-image img{
+    width:50%;
+    height:70%;
+}
