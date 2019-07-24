@@ -1,10 +1,12 @@
 import React,{Component} from 'react';
 import './FabrikaItems.css'
+import GalleryData from '../data/gallery.json'
 class FabrikaItems extends Component{
     render(){
         return(
             <div className="items"> 
-                <img  className="photo" src={require("../../assets/photo.png")}></img> 
+              {       
+               <img  className="photo" src={this.props.images[0]}></img> }
                 <button>
                     <img className="icon" src={require("../../assets/facebook.png")}/>
                 </button>

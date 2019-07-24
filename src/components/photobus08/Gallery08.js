@@ -22,7 +22,7 @@ render(){
                </div>
             </div> 
             <div className="gallery-image" >
-                <img src={require("../../assets/flower.png")}></img>
+                <img src={require("../../assets/fabrika.png")}></img>
             </div>
         </div>
 </div>

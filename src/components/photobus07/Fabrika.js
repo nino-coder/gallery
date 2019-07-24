@@ -4,6 +4,8 @@ import Sidebar from '../Sidebar'
 import Header from './Header'
 import FabrikaItems from './FabrikaItems'
 import './Fabrika.css'
+import GalleryData from '../data/gallery.json'
+import {NavLink} from "react-router-dom"
 class Fabrica extends Component{
     render(){
         return(
@@ -12,15 +14,14 @@ class Fabrica extends Component{
                 <div className="gallery-elements">
                 <Header/>
                 <div className="gallery-boxes">
-                <FabrikaItems/>
-                <FabrikaItems/>
-                <FabrikaItems/>
+                {GalleryData.map(prop => (
+                    <FabrikaItems
+                    images={prop.images}
+                    
+                    />  
+                ))}
             </div>
-            <div className="gallery-boxes">
-                <FabrikaItems/>
-                <FabrikaItems/>
-                <FabrikaItems/>
-                </div>             
+                       
         </div>
             </div>
         );

@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import './Sidebar.css'
+import {NavLink} from "react-router-dom"
 class Sidebar extends Component {
     render() {
         return (
@@ -12,15 +13,19 @@ class Sidebar extends Component {
                                     <option value="Ensyspace">Ensyspace</option>
                                 </select></div>
                             </div>
-                            <div className="side-bar-elements">
+                            <nav className="side-bar-elements">
+                            
                             <ul>
                                 <li className="navigation">
                                     <img src={require("../assets/home.png")}></img>
+                                
                                     <a href="url"><p>home</p></a>
                                 </li>
                                 <li className="navigation">
                                     <img src={require("../assets/galleries.png")}></img>
-                                    <a href="url"><p>galleries</p></a>
+                                    <NavLink exact to='/Fabrika'>
+                            galleries </NavLink>
+                       
                                 </li>
                                 <div className="line">
                                     <p>Device control</p>
@@ -67,7 +72,8 @@ class Sidebar extends Component {
                                     <a href="url"><p>Help</p></a>
                                 </li>
                             </ul>
-                        </div>
+                           
+                        </nav>
             </nav>
         )
     }

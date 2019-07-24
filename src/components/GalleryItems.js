@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import './GalleryItems.css'
 import GalleryData from './data/gallery.json'
+
 class GalleryItems extends Component{
     constructor(props){
         super(props);

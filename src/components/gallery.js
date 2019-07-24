@@ -4,6 +4,7 @@ import GalleryItems from './GalleryItems';
 import GalleryHeader from './GalleryHeader';
 import './gallery.css';
 import GalleryData from './data/gallery.json'
+
 class Gallery extends Component{
     render(){
 
