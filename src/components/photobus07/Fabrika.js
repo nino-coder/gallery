@@ -17,7 +17,6 @@ class Fabrica extends Component{
                 {GalleryData.map(prop => (
                     <FabrikaItems
                     images={prop.images}
-                    
                     />  
                 ))}
             </div>

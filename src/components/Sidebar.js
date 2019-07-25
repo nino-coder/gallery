@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import './Sidebar.css'
-import {NavLink} from "react-router-dom"
+import {NavLink} from 'react-router-dom'
 class Sidebar extends Component {
     render() {
         return (
@@ -18,13 +18,12 @@ class Sidebar extends Component {
                             <ul>
                                 <li className="navigation">
                                     <img src={require("../assets/home.png")}></img>
-                                
-                                    <a href="url"><p>home</p></a>
+                                <NavLink to="/Gallery">home</NavLink>
+                                  
                                 </li>
                                 <li className="navigation">
                                     <img src={require("../assets/galleries.png")}></img>
-                                    <NavLink exact to='/Fabrika'>
-                            galleries </NavLink>
+                                    <a href="url">galleries</a>
                        
                                 </li>
                                 <div className="line">

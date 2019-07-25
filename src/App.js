@@ -12,10 +12,12 @@ class App extends Component {
     <Switch>
       <Route exact path='/' component={Gallery} />
       <Route path='/Fabrika' component={Fabrika} />
+      <Route path='/Gallery08' component={Gallery08}/>
+      <Route path='/Gallery' component={Gallery}/>
     </Switch>
     
 </BrowserRouter>
-  // <Gallery/>
+ 
   );
 }
 }

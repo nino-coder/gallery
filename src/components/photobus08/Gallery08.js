@@ -3,7 +3,8 @@ import '../Sidebar.css'
 import Sidebar from '../Sidebar'
 import HeaderTop from '../photobus07/HeaderTop'
 import './Gallery08.css'
-
+import GalleryData from '../data/gallery.json'
+import '../photobus07/FabrikaItems.css'
 class Gallery08 extends Component{
 render(){
     return(
@@ -13,6 +14,7 @@ render(){
             <div>
            <HeaderTop/>
            </div>
+         
            <div className="header-bottom">
                <div className="shapeimg">
                <img src={require("../../assets/shape.png")}></img>
@@ -21,9 +23,31 @@ render(){
                <img  src={require("../../assets/fabrika.png")}></img>
                </div>
             </div> 
-            <div className="gallery-image" >
-                <img src={require("../../assets/fabrika.png")}></img>
+            <div className="items08"> 
+                <div className="one-image-container">
+                   
+            <img className="fabrikaimg"src={GalleryData[0].images[0]}></img> 
+            <div className="socialbuttons">
+                <button>
+                    <img className="icon08" src={require("../../assets/facebook.png")}/>
+                </button>
+                <button>
+                    <img className="icon08" src={require("../../assets/instagram.png")}/>
+                </button>
+                <button>
+                    <img className="icon08" src={require("../../assets/mail.png")}/>
+                </button>
+                <button>
+                    <img className="icon08" src={require("../../assets/download.png")}/>
+                </button>
+              
             </div>
+            <div className="threepoint">
+                <img  src={require("../../assets/point.png")}/>
+            </div>
+                </div>
+        </div>
+       
         </div>
 </div>
     );
