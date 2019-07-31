@@ -9,7 +9,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
   /* width: 220px;*/
-    height: 75%;
+    height: 60%;
     box-shadow: 0 2px 4px #d5d8e6;
     border-radius: 4px;
     border: 1px solid #c0c9df;
@@ -39,8 +39,8 @@
     
 }
 .side-bar-dropdown select option{
-    /*width:70px;
-    height: 18px;*/
+    /* width:70px;
+    height: 18px; */
     color: #595b62;
     font-family: "Aktiv Grotesk - Regular";
     font-size: 14px;
@@ -52,7 +52,7 @@
 }
 .line p{
     display: grid;
-    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 5fr);
     align-items: center;
     text-align: center;
     color: #9fa2a9;
@@ -74,15 +74,22 @@
     font-weight: 300;
     line-height: 50px;
     display:inline-block;
+    margin-left:10%;
 }
 .navigation{
     width:100%;
     margin-top:-2%;
     margin-bottom:-6%;
+    display: flex;
+    align-self: center;
 }
 .navigation p{
     margin-top: 0%;
     margin-bottom: 0%;
+}
+.navigation img{
+    height: 8%;
+    align-self: center;
 }
 .side-bar-elements{
     text-align: left;

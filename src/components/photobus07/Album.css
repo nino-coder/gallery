@@ -1,0 +1,17 @@
+.gallery-boxes07{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    padding: 10px;
+    margin-left: 3%;
+ 
+}
+.header{
+    display: grid;
+    justify-items: center;
+}
+.header img{
+    width: 20%;
+}

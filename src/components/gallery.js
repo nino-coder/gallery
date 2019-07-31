@@ -4,6 +4,7 @@ import GalleryItems from './GalleryItems';
 import GalleryHeader from './GalleryHeader';
 import './gallery.css';
 import GalleryData from './data/gallery.json'
+import AlbumItems from './photobus07/AlbumItems';
 
 class Gallery extends Component{
     render(){
@@ -14,12 +15,15 @@ class Gallery extends Component{
             <div className="gallery-elements">
                <GalleryHeader/>
                 <div className="gallery-boxes-first">
-                {GalleryData.map(prop => (
+                {GalleryData.map(info=> (
                     <GalleryItems
-                    avatar={prop.avatar}
-                    name={prop.name}
-                    description={prop.description}
-                    />  
+                        avatar={info.avatar}
+                        name={info.name}
+                        description={info.description}
+                        images={info.images}
+                        logo={info.logo}
+                    /> 
+                   
                 ))}
                  </div>
                      

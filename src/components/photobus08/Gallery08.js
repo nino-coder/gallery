@@ -4,8 +4,13 @@ import Sidebar from '../Sidebar'
 import HeaderTop from '../photobus07/HeaderTop'
 import './Gallery08.css'
 import GalleryData from '../data/gallery.json'
-import '../photobus07/FabrikaItems.css'
+import '../photobus07/AlbumItems.css'
+import '../photobus07/AlbumItems'
+
 class Gallery08 extends Component{
+  constructor(props){
+      super(props);
+  }
 render(){
     return(
         <div className="main-container">
@@ -17,7 +22,9 @@ render(){
          
            <div className="header-bottom">
                <div className="shapeimg">
-               <img src={require("../../assets/shape.png")}></img>
+              
+                  <img src={require("../../assets/shape.png")}></img>
+               
                </div>
                <div className="fabrikaimg">
                <img  src={require("../../assets/fabrika.png")}></img>
@@ -25,8 +32,7 @@ render(){
             </div> 
             <div className="items08"> 
                 <div className="one-image-container">
-                   
-            <img className="fabrikaimg"src={GalleryData[0].images[0]}></img> 
+            <img className="fabrikaimg"src={this.props.image}></img> 
             <div className="socialbuttons">
                 <button>
                     <img className="icon08" src={require("../../assets/facebook.png")}/>

@@ -1,13 +1,18 @@
 import React,{Component} from 'react';
-import './FabrikaItems.css'
+import './AlbumItems.css'
 import GalleryData from '../data/gallery.json'
 import {NavLink} from 'react-router-dom'
-class FabrikaItems extends Component{
+class AlbumItems extends Component{
+  
     render(){
         return(
+                 
             <div className="items"> 
-              {       <NavLink  to='/Gallery08'>
-               <img  className="photo" src={this.props.images[0]}></img> </NavLink>}
+                <NavLink  to='/Gallery08'>
+
+               <img  className="photo" src={this.props.image}/> </NavLink>
+
+        
                 <button>
                     <img className="icon" src={require("../../assets/facebook.png")}/>
                 </button>
@@ -24,4 +29,4 @@ class FabrikaItems extends Component{
         );
     }
 }
-export default FabrikaItems;
+export default AlbumItems;

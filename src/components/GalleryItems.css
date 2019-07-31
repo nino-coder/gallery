@@ -4,17 +4,17 @@
     box-shadow: 0 16px 16px -1px rgba(10, 22, 70, 0.1), 0 0 1px rgba(10, 22, 70, 0.06);
     border-radius: 8px;
     background-color: #ffffff;
-    text-align: center;
     font-size: 15px;
 }
 .gallery-item h4{
     display: grid;
     justify-content: space-between;
-    padding-left: 10%;
+    padding-left: 7%;
 
 }
 .gallery-item p{
     font-size: 12px;
+    padding-left: 7%;
 }
 .gallery-item img{
     width:100%;

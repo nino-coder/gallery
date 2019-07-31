@@ -51,7 +51,7 @@ class Sidebar extends Component {
                                 </li>
                                 <li className="navigation">
                                     <img src={require("../assets/Sharing.png")}></img>
-                                    <a href="url"><p>Sharing_Option</p></a>
+                                    <a href="url"><p>Sharing Option</p></a>
                                 </li>
                                 <li className="navigation">
                                     <img src={require("../assets/Effects.png")}></img>
