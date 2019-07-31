@@ -8,7 +8,13 @@ class AlbumItems extends Component{
         return(
                  
             <div className="items"> 
-                <NavLink  to='/Gallery08'>
+            <NavLink to={{
+                pathname: '/Gallery08',
+                state: {
+                    image:this.props.image,
+                    logo: this.props.logo
+                }
+            }} > 
 
                <img  className="photo" src={this.props.image}/> </NavLink>
 

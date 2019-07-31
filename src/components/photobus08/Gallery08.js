@@ -26,31 +26,35 @@ render(){
                   <img src={require("../../assets/shape.png")}></img>
                
                </div>
-               <div className="fabrikaimg">
-               <img  src={require("../../assets/fabrika.png")}></img>
+               <div className="albumlogo">
+               <img  src={this.props.location.state.logo}></img>
                </div>
             </div> 
             <div className="items08"> 
                 <div className="one-image-container">
-            <img className="fabrikaimg"src={this.props.image}></img> 
-            <div className="socialbuttons">
-                <button>
-                    <img className="icon08" src={require("../../assets/facebook.png")}/>
-                </button>
-                <button>
-                    <img className="icon08" src={require("../../assets/instagram.png")}/>
-                </button>
-                <button>
-                    <img className="icon08" src={require("../../assets/mail.png")}/>
-                </button>
-                <button>
-                    <img className="icon08" src={require("../../assets/download.png")}/>
-                </button>
-              
-            </div>
-            <div className="threepoint">
-                <img  src={require("../../assets/point.png")}/>
-            </div>
+                    <div className="for-image">
+                    <img className="albumimg"src={this.props.location.state.image}></img>
+                    </div>
+                    <div className="for-social-buttons">
+                            <div className="socialbuttons">
+                                <button>
+                                    <img className="icon08" src={require("../../assets/facebook.png")}/>
+                                </button>
+                                <button>
+                                    <img className="icon08" src={require("../../assets/instagram.png")}/>
+                                </button>
+                                <button>
+                                    <img className="icon08" src={require("../../assets/mail.png")}/>
+                                </button>
+                                <button>
+                                    <img className="icon08" src={require("../../assets/download.png")}/>
+                                </button>
+                            
+                            </div>
+                            <div className="threepoint">
+                                <img  src={require("../../assets/point.png")}/>
+                            </div>
+                   </div>
                 </div>
         </div>
        

@@ -10,25 +10,30 @@
     justify-content:flex-start;
     align-self:flex-start;
 }
-.fabrikaimg{
+.albumimg{
     width: 100%;
-    height: 85%;
+    height:350px;
     border-top: 8px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     display: flex;
     justify-content: center;
 }
+.albumlogo{
+    justify-items: center;
+}
+.albumlogo img{
+    width:50%;
+}
 .header-bottom
 {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
     width: 55%;
     height: 90%;
-    display: flex;
+    display: grid;
     grid-template-columns: 1fr 2fr;
     margin-left: 23%;
 }
+
 .gallery-image{
     display: flex;
     justify-content: center;
@@ -36,7 +41,7 @@
 .gallery-image img{
     width: 50%;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
-    height: 70%;
+    /* height: 70%; */
 }
 .items08{
     display: flex;
@@ -45,32 +50,48 @@
 
 .one-image-container{
     width: 55%;
-    height: 90%;
+    height: 430px;
     box-shadow: 0 16px 16px -1px rgba(10, 22, 70, 0.1), 0 0 1px rgba(10, 22, 70, 0.06);
     border-radius: 8px;
     background-color: #ffffff;
     text-align: center;
     font-size: 15px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+.for-social-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .socialbuttons{
-    display: flex;
-    justify-content: flex-start;
- margin-top:2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
 }
 .socialbuttons button{
-    width: 10%;
+    /* height: 15%; */
     background-color: #ffffff;
     border-radius: 55%;
     border-color: #fff;
-    margin-left: 1.5%;
+    margin-left: 10%;
 }
+
 .socialbuttons button img{
-    width: 33%;
-    height: 30%;
+    /* border-radius: 50%;
+    padding: 15%;
+    box-shadow: 0 6px 6px -1px rgba(10, 22, 70, 0.1), 0 0 10px rgba(10, 22, 70, 0.06);
+    background-color: white; */
+}
+.threepoint{
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    margin-right: 10%;
 }
 .threepoint img{
-    position: absolute;
+    /* position: absolute;
     right: 20%;
-    bottom: 4%;
+    bottom: 4%; */
 
 }
