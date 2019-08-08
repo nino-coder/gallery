@@ -1,7 +1,13 @@
 import React,{Component} from 'react';
 import './Sidebar.css'
-import {NavLink} from 'react-router-dom'
+import fire from '../config/Fire'
+import {NavLink,Redirect} from 'react-router-dom'
+
 class Sidebar extends Component {
+    logout = () => {
+        fire.auth().signOut();
+        // <Redirect to="/Login"/>
+    }
     render() {
         return (
             <nav className="side-bar">
@@ -69,6 +75,9 @@ class Sidebar extends Component {
                                 <li className="navigation">
                                     <img src={require("../assets/help.png")}></img>
                                     <a href="url"><p>Help</p></a>
+                                </li>
+                                <li className="navigation">
+                                <button onClick={this.logout}>Logout</button>
                                 </li>
                             </ul>
                            

@@ -4,8 +4,7 @@ import Sidebar from '../Sidebar'
 import HeaderTop from './HeaderTop'
 import AlbumItems from './AlbumItems'
 import './Album.css'
-import GalleryData from '../data/gallery.json'
-import {NavLink} from "react-router-dom"
+
 class Album extends Component{
 
 

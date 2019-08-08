@@ -4,7 +4,6 @@ import GalleryItems from './GalleryItems';
 import GalleryHeader from './GalleryHeader';
 import './gallery.css';
 import GalleryData from './data/gallery.json'
-import AlbumItems from './photobus07/AlbumItems';
 
 class Gallery extends Component{
     render(){

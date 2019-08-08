@@ -3,7 +3,6 @@ import '../Sidebar.css'
 import Sidebar from '../Sidebar'
 import HeaderTop from '../photobus07/HeaderTop'
 import './Gallery08.css'
-import GalleryData from '../data/gallery.json'
 import '../photobus07/AlbumItems.css'
 import '../photobus07/AlbumItems'
 

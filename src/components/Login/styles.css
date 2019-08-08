@@ -1,0 +1,99 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #fff;
+}
+
+.main-second{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.main-second img{
+    width:100%;
+    height:100%;
+   
+}
+
+.main-first{
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.secondWrapper{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    
+}
+.inputs input{
+    width: 423px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #fafbfb;
+    padding:10px;
+    display: grid;
+    justify-content: center;
+}
+h1{
+    color: #0a1f44;
+    align-self: flex-end;
+}
+.check1 p{
+    display: inline-block;
+    width: 122px;
+    height: 21px;
+    color: #4e5d78;
+    font-family: "Inter UI - Medium";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    
+}
+.check{
+    display: grid;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.check a{
+    width: 119px;
+    height: 21px;
+    color: #553eb5;
+    font-family: "Inter UI - Medium";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    display:inline-block;
+}
+.check1{
+    display:inline-block;
+}
+.login {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.registerBtn{
+    width: 423px;
+    height: 59px;
+    border-radius: 8px;
+    background-color: #0284fe;
+    justify-self: center;
+    align-self:center;
+    margin-top:0;
+    color: #ffffff;
+}
+.loginBtn{
+    width: 423px;
+    height: 59px;
+    border-radius: 8px;
+    background-color: #0284fe;
+    justify-self: center;
+    align-self:center;
+    margin-top:0;
+    color: #ffffff;
+      -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+}
