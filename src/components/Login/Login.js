@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './styles.css';
 import fire from '../../config/Fire';
 import  { useState } from "react";
+import show from "../../assets/show-password.png";
+import hide from '../../assets/hide-password.png';
 class Login extends Component{
     constructor(props){
         super(props);
@@ -10,10 +12,15 @@ class Login extends Component{
             password:'',
             fireErrors:'',
             formTitle:'Login',
-            loginBtn:true
+            loginBtn:true,
+            hidden: true
         }
+        this.toggleShow = this.toggleShow.bind(this);
     }
-  
+    toggleShow() {
+        this.setState({ hidden: !this.state.hidden });
+      }
+
     handleChange=e=>{
         this.setState({[e.target.name]:e.target.value});
     }
@@ -39,6 +46,12 @@ class Login extends Component{
         }
     }
 
+    componentDidMount() {
+        if (this.props.password) {
+          this.setState({ password: this.props.password });
+        }
+      }
+
 render(){
 
     let errorNotification=this.state.fireErrors?
@@ -48,11 +61,11 @@ render(){
     (<input className="loginBtn" type="submit" onClick={this.login} value="sign in"/>) : 
     (<input className="loginBtn" type="submit" onClick={this.register} value="Register" />);
 
-let login_register = this.state.loginBtn ?
+    let login_register = this.state.loginBtn ?
     (<button className="registerBtn" onClick={() => this.getAction('reg')}>Register</button>) : 
     (<button className="registerBtn" onClick={() => this.getAction('login')}>Login</button>)
   
-
+    let ShowHide = this.state.hidden ? hide : show;
     return(
         <div className="main">
             <div className="main-first">
@@ -67,13 +80,20 @@ let login_register = this.state.loginBtn ?
                             name="email"
                             placeholder="Your Email"
                             />
-                    
-                            <input type="password"
-                            value={this.state.passwords}
-                            onChange={this.handleChange}
-                            name="password"
-                            placeholder="Password"/>
-                      
+
+                            <div className="login-password">
+                                <input 
+                                    type={this.state.hidden? "password":"text"}
+                                    value={this.state.password}
+                                    onChange={this.handleChange}
+                                    placeholder="Password"
+                                    name="password"
+                                    />
+                                
+                                <div className="show-hide-password">
+                                    <img  onClick={this.toggleShow} src={ShowHide} /> 
+                                 </div>
+                              </div>
                             </form>
                         </div>
                         <div className="check">

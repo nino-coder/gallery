@@ -6,10 +6,7 @@ import Gallery08 from './components/photobus08/Gallery08'
 import {
   BrowserRouter ,
   Route,
-  Link,
   Switch,
-  Redirect,
-  withRouter
 } from 'react-router-dom';
 import Login from './components/Login/Login';
 import fire from './config/Fire'
@@ -45,7 +42,6 @@ class App extends Component {
    <Route path='/Album' component={albumpage} />
    <Route path="/Gallery08" component={imagepage}/>
    <Route path="/Gallery" component={Gallery}/>
-
     </Switch>
     
 </BrowserRouter>

@@ -15,7 +15,8 @@ class GalleryItems extends Component{
                   name,
                   description
               }
-          }} >  <img src={this.props.avatar}></img></Link>
+          }} > 
+           <img src={this.props.avatar}></img></Link>
                 <h4>{this.props.name}</h4>
                 <p>{this.props.description}</p>
             </div>

@@ -1,12 +1,11 @@
 import React,{Component} from 'react';
 import './Sidebar.css'
 import fire from '../config/Fire'
-import {NavLink,Redirect} from 'react-router-dom'
-
+import {Link,Redirect} from 'react-router-dom'
+import Login from './Login/Login';
 class Sidebar extends Component {
     logout = () => {
         fire.auth().signOut();
-        // <Redirect to="/Login"/>
     }
     render() {
         return (
@@ -24,7 +23,7 @@ class Sidebar extends Component {
                             <ul>
                                 <li className="navigation">
                                     <img src={require("../assets/home.png")}></img>
-                                <NavLink to="/Gallery">home</NavLink>
+                                <Link to="/Gallery">home</Link>
                                   
                                 </li>
                                 <li className="navigation">

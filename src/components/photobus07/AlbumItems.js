@@ -1,14 +1,14 @@
 import React,{Component} from 'react';
 import './AlbumItems.css'
 import GalleryData from '../data/gallery.json'
-import {NavLink} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 class AlbumItems extends Component{
   
     render(){
         return(
                  
             <div className="items"> 
-            <NavLink to={{
+            <Link to={{
                 pathname: '/Gallery08',
                 state: {
                     image:this.props.image,
@@ -16,9 +16,7 @@ class AlbumItems extends Component{
                 }
             }} > 
 
-               <img  className="photo" src={this.props.image}/> </NavLink>
-
-        
+               <img  className="photo" src={this.props.image}/> </Link>
                 <button>
                     <img className="icon" src={require("../../assets/facebook.png")}/>
                 </button>
